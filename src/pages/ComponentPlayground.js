@@ -1,4 +1,5 @@
 import React from 'react';
+import Searchbar from '../components/Seachbar/Searchbar';
 
 const ComponentPlayground = () => {
   return (
@@ -6,6 +7,7 @@ const ComponentPlayground = () => {
       <h2>Component Playground</h2>
       <div className="playground-content">
         {/* experimental components */}
+        <Searchbar />
       </div>
     </div>
   );

@@ -1,13 +1,23 @@
 import React, { Component } from "react";
+import './Searchbar.css'
 
 class Searchbar extends Component {
-    render() {
-        return (
-            <div>
+  // Initialize state in constructor
+  constructor(props) {
+    super(props);
+    this.state = {
+      searchTerm: "",
+      isSearching: false,
+    };
+  }
 
-            </div>
-        )
-    }
+  render() {
+    return (
+      <div>
+        <p>Test of life</p>
+      </div>
+    );
+  }
 }
 
 export default Searchbar;
